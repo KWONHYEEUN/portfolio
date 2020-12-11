@@ -43,10 +43,13 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
 }
 
 body {
+<<<<<<< HEAD
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -webkit-user-select: none;
     user-select: none;
+=======
+>>>>>>> origin/master
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -537,12 +540,21 @@ section {
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+<<<<<<< HEAD
 
 }
 
 #header.nav-solid .social-icons a:hover {
     opacity: 0.7;
 
+=======
+    opacity: 0.5;
+}
+
+#header.nav-solid .social-icons a:hover {
+    opacity: 1;
+    color: #e4473c;
+>>>>>>> origin/master
 }
 
 /* Responsive Nav Styling */
@@ -813,8 +825,13 @@ h6 {
 
 /*Font Icon sizes*/
 .icon img {
+<<<<<<< HEAD
     width: 30px;
     height: auto;
+=======
+  width: 30px;
+  height: auto;
+>>>>>>> origin/master
 }
 .fa-1x {
     font-size: 15px !important;
@@ -1440,7 +1457,12 @@ color: white;
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
+<<<<<<< HEAD
     top:0;
+=======
+    top;
+    0;
+>>>>>>> origin/master
     right: 0;
     bottom: 0;
     left: 0;
@@ -1580,7 +1602,10 @@ color: white;
 
 #scrollUp:hover {
     margin-bottom: 0;
+<<<<<<< HEAD
     opacity: 0.3;
+=======
+>>>>>>> origin/master
 }
 
 #scrollUp:before {
@@ -1596,7 +1621,11 @@ color: white;
     display: inline-block;
     line-height: 45px;
     content: "\f106";
+<<<<<<< HEAD
 
+=======
+    opacity: 0.3;
+>>>>>>> origin/master
 }
 
 
