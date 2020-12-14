@@ -1,0 +1,48 @@
+
+#photoBox {
+  width: 1205px;
+  top: 300px;
+  right: 0;
+  height: auto;
+}
+#photoList li {
+  position: absolute;
+left: 125px;
+  display: none;
+  list-style: none;
+}
+
+#photoList img {
+  width: 1000px;
+  height: auto;
+}
+
+#control {
+  position: relative;
+  top: 130px;
+}
+
+#control li {
+  position: absolute;
+  list-style: none;
+}
+
+#control #prev {
+  display: hidden;
+  width: 30px;
+  left: 0;
+}
+
+#control #next {
+  display: hidden;
+  right: 0;
+  width: 30px;
+}
+
+#control img {
+  width: 60px;
+}
+
+.controlBtn {
+  display: none;
+}

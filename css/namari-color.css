@@ -100,7 +100,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 .text-center .section-heading h2:after {
     margin:30px auto 25px auto;
-}
+}about-tools
 
 /* Primary Icon Colors */
 
@@ -128,6 +128,11 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+#banner-planto {
+background: url("../images/banner-images/banner-image-planto.jpg") no-repeat center top;
+    background-size:cover;
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -135,7 +140,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 
 body {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:15px;
     font-weight:normal;
     color:#111;
@@ -161,17 +166,30 @@ body {
 
 
 /* Banner Typography */
-
-#banner h1 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+#banner-content h1 {
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:62px;
     line-height:60px;
     font-weight:800;
     color:#111;
 }
 
-#banner h2 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+#banner-content h2 {
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+#banner-planto h1 {
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner-planto h2 {
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:18px;
     font-weight:300;
     color:#111;
@@ -181,23 +199,30 @@ body {
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 34px;
     font-weight:700;
     color:#111;
 }
 
 .section-subtitle {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 16px;
     font-weight:300;
     color:#9c9c9c;
 }
 
+#about-pl .section-subtitle {
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
+    font-size: 16px;
+    font-weight:300;
+    color:#9c9c9c;
+    width: 1000px;
+}
 /* Testimonial */
 
 .testimonial q {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 17px;
     font-weight:300;
 }
@@ -210,42 +235,42 @@ body {
 /* Standard Headings h1-h6 */
 
 h1 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 40px;
     font-weight:300;
     color:#111;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+   /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 34px;
     font-weight:300;
     color:#111;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 30px;
     font-weight:700;
     color:#111;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 18px;
     font-weight:400;
     color:#111;
 }
 
 h5 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+   /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 16px;
     font-weight:400;
     color:#111;
 }
 
 h6 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size: 14px;
     font-weight:400;
     color:#111;
@@ -262,7 +287,7 @@ h6 {
 /* Button Text */
 
 .button, input[type="submit"]  {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+/*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:14px;
     font-weight:bold;
     color:#111;
@@ -289,8 +314,8 @@ h6 {
 
 /* Button Text */
 
-#banner .button {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+#banner-planto .button {
+  /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:16px;
     color:#111;
 }
@@ -298,14 +323,14 @@ h6 {
 
 /* Button Color */
 
-#banner .button {
+#banner-planto .button {
     border-color:#111;
 }
 
 
 /* Button Hover Color */
 
-#banner .button:hover {
+#banner-planto .button:hover {
     color:#ffd25b;
     border-color:#ffd25b;
 }
@@ -316,7 +341,7 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    /*font-family: 'Open Sans', sans-serif, Arial, Helvetica;*/
     font-size:12px;
     font-weight:normal;
     color:#999;
