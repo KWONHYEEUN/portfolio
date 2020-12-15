@@ -987,7 +987,7 @@ blockquote {
 
 background-color: #2196F3;
 color: #ffffff;
-
+overflow: visible;
 display: none;
 
 }
@@ -1125,9 +1125,9 @@ color: white;
         display: inline-block;
 
         /* dimensions: cut off images */
-        overflow: auto;
+        overflow: visible;
         padding: 25px 0;
-        border-bottom: 25px solid transparent;
+
 
         /* dimensions: handling small or empty content */
         min-width: 30%;
